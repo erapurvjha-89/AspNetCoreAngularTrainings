@@ -1,0 +1,10 @@
+D:\NagarajuTraining\MVCWebApp\MVCWebApp\bin\Debug\netcoreapp1.1\MVCWebApp.deps.json
+D:\NagarajuTraining\MVCWebApp\MVCWebApp\bin\Debug\netcoreapp1.1\MVCWebApp.runtimeconfig.json
+D:\NagarajuTraining\MVCWebApp\MVCWebApp\bin\Debug\netcoreapp1.1\MVCWebApp.runtimeconfig.dev.json
+D:\NagarajuTraining\MVCWebApp\MVCWebApp\bin\Debug\netcoreapp1.1\MVCWebApp.dll
+D:\NagarajuTraining\MVCWebApp\MVCWebApp\bin\Debug\netcoreapp1.1\MVCWebApp.pdb
+D:\NagarajuTraining\MVCWebApp\MVCWebApp\obj\Debug\netcoreapp1.1\MVCWebApp.csprojResolveAssemblyReference.cache
+D:\NagarajuTraining\MVCWebApp\MVCWebApp\obj\Debug\netcoreapp1.1\MVCWebApp.csproj.CoreCompileInputs.cache
+D:\NagarajuTraining\MVCWebApp\MVCWebApp\obj\Debug\netcoreapp1.1\MVCWebApp.AssemblyInfo.cs
+D:\NagarajuTraining\MVCWebApp\MVCWebApp\obj\Debug\netcoreapp1.1\MVCWebApp.dll
+D:\NagarajuTraining\MVCWebApp\MVCWebApp\obj\Debug\netcoreapp1.1\MVCWebApp.pdb
