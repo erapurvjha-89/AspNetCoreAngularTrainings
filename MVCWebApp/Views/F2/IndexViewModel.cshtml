@@ -1,0 +1,44 @@
+@model dynamic
+@using MVCWebApp.Models;
+
+<h1>List of Departments</h1>
+
+<table border="1">
+    <tr>
+        <th>Dept No</th>
+        <th>Dept Name</th>
+        <th>Loc</th>
+    </tr>
+ @foreach (var item in Model.dept)
+ {
+        <tr>
+            <td>@item.DeptNo</td>
+            <td>@item.DName</td>
+            <td>@item.Loc</td>
+        </tr>
+    }
+</table>
+<div>
+    @Html.ActionLink("Add Departments", "AddDept")
+</div>
+
+<h1>Employee List List</h1>
+
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Salary</th>
+      
+    </tr>
+    @foreach (var emp in Model.Empl)
+    {
+        <tr>
+            <td>@emp.EmployeeID</td>
+            <td>@emp.EmpName</td>
+            <td>@emp.Salary</td>
+           
+        </tr>
+    }
+</table>
+  

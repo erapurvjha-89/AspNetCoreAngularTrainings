@@ -1,0 +1,23 @@
+
+@model List<MVCWebApp.Models.Dept>
+
+@{
+    ViewData["Title"] = "ListDepartments";
+}
+
+<h2>ListDepartments</h2>
+@using (Html.BeginForm())
+{
+@foreach (var item in Model)
+{
+    <div>
+        <li>Dept No:@item.DeptNo DeptName:@item.DName Loc:@item.Loc</li>
+    </div>
+
+}<br />
+    <br />
+    <div>
+        @Html.ActionLink("Add Departments", "AddDept")
+    </div>
+}
+

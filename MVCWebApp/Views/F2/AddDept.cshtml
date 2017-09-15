@@ -1,0 +1,27 @@
+
+@{
+    ViewData["Title"] = "AddDept";
+}
+
+<h2>AddDept</h2>
+
+
+
+@using (Html.BeginForm())
+{
+    <div>
+        DeptNo
+        @Html.TextBox("DeptNo")
+
+        DeptName
+        @Html.TextBox("DeptName")
+
+        Loc
+        @Html.TextBox("Loc")
+
+        <input type="submit" name="name" value="AddDept" />
+        </div>
+        <div>
+        @Html.ActionLink("List", "ListDepartments")
+        </div>
+}

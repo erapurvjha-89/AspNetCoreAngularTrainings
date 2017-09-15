@@ -1,0 +1,72 @@
+.Net core --dependency injection
+Rasbery pie
+R dino
+IOT
+IOT hUb Azure
+Portable class library replace with .net stndard library
+
+
+Programming Improvements
+
+1.Unified way of building web as well as API(MVC or API controllers are same)
+2.Integration of modern client framework and development workflows.example-- Bower
+3.Acloud ready envoirnment
+4.Built in depency injection.
+5.New light weight and modular HTTP request pipeline.we can build our own pipeline
+6.COre is collection of middlewares.i.e. we can plug and unplug from pipeline..suppose we have help API and we dont want identity or authentication for it.so we unplug auth API.
+6.Kestrel 
+7.entire on Nuget packaages
+
+
+
+Middleware
+Middleware is a software that is assembeled into an application pipeline to handle req and responses
+RRequest delegates are used to build requestpipeline
+app.run(),run allws to write code 
+app.map(),
+app.use(),already bilt use it
+
+useStaticfile()---
+
+
+MVC Design pattern
+
+
+Model--state of the program like variable ,types
+Controllers----Logic of the program,all req and res is processed by controller(In core 2.0 we can directly requuest the 		view and other resources independent of controller)
+View---presentation,all i/o required,all html,js,css,etc
+
+
+
+user requests the response to controller ,controller prepares the model and passes that model to view and then view renders this model.
+
+controller is collection of action methods
+Action Methods---a method written using IActionResult,ActionResult or its derived types
+ActionHelpers or helper methods are provided for every ActionMethod type---First name are helpe methods
+Helper methods are used  to convert and return according to type..
+
+
+COntentResult --in this we can pass instructions also like "text/html","text/javascriopt"
+
+VirtualFIleresult,physicalfileresult
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
